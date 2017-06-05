@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<div class="github-fork-ribbon-wrapper right">
+  <div class="github-fork-ribbon">
+    <a href="https://github.com/akaustav/angular-solitare">Fork me on GitHub</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row first">
+    <h1>
+      {{title}}
+    </h1>
+  </div>
+  <div class="row"></div>
+
+  <div class="win" *ngIf="win">You Win!</div>
+</div>
+
+<app-sample></app-sample>
